@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		931F673326E8854600E9A6A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 931F673226E8854600E9A6A9 /* AppDelegate.m */; };
+		931F673626E8854600E9A6A9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 931F673526E8854600E9A6A9 /* SceneDelegate.m */; };
+		931F673926E8854600E9A6A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 931F673826E8854600E9A6A9 /* ViewController.m */; };
+		931F673C26E8854600E9A6A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931F673A26E8854600E9A6A9 /* Main.storyboard */; };
+		931F673E26E8854700E9A6A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931F673D26E8854700E9A6A9 /* Assets.xcassets */; };
+		931F674126E8854700E9A6A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931F673F26E8854700E9A6A9 /* LaunchScreen.storyboard */; };
+		931F674426E8854700E9A6A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 931F674326E8854700E9A6A9 /* main.m */; };
+		931F674E26E8854700E9A6A9 /* SmartUnifyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 931F674D26E8854700E9A6A9 /* SmartUnifyTests.m */; };
+		931F675926E8854700E9A6A9 /* SmartUnifyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 931F675826E8854700E9A6A9 /* SmartUnifyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		931F674A26E8854700E9A6A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 931F672626E8854600E9A6A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 931F672D26E8854600E9A6A9;
+			remoteInfo = SmartUnify;
+		};
+		931F675526E8854700E9A6A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 931F672626E8854600E9A6A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 931F672D26E8854600E9A6A9;
+			remoteInfo = SmartUnify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		931F672E26E8854600E9A6A9 /* SmartUnify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartUnify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		931F673126E8854600E9A6A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		931F673226E8854600E9A6A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		931F673426E8854600E9A6A9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		931F673526E8854600E9A6A9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		931F673726E8854600E9A6A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		931F673826E8854600E9A6A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		931F673B26E8854600E9A6A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		931F673D26E8854700E9A6A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		931F674026E8854700E9A6A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		931F674226E8854700E9A6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		931F674326E8854700E9A6A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		931F674926E8854700E9A6A9 /* SmartUnifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartUnifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		931F674D26E8854700E9A6A9 /* SmartUnifyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartUnifyTests.m; sourceTree = "<group>"; };
+		931F674F26E8854700E9A6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		931F675426E8854700E9A6A9 /* SmartUnifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartUnifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		931F675826E8854700E9A6A9 /* SmartUnifyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartUnifyUITests.m; sourceTree = "<group>"; };
+		931F675A26E8854700E9A6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		931F672B26E8854600E9A6A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931F674626E8854700E9A6A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931F675126E8854700E9A6A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		931F672526E8854600E9A6A9 = {
+			isa = PBXGroup;
+			children = (
+				931F673026E8854600E9A6A9 /* SmartUnify */,
+				931F674C26E8854700E9A6A9 /* SmartUnifyTests */,
+				931F675726E8854700E9A6A9 /* SmartUnifyUITests */,
+				931F672F26E8854600E9A6A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		931F672F26E8854600E9A6A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				931F672E26E8854600E9A6A9 /* SmartUnify.app */,
+				931F674926E8854700E9A6A9 /* SmartUnifyTests.xctest */,
+				931F675426E8854700E9A6A9 /* SmartUnifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		931F673026E8854600E9A6A9 /* SmartUnify */ = {
+			isa = PBXGroup;
+			children = (
+				931F673126E8854600E9A6A9 /* AppDelegate.h */,
+				931F673226E8854600E9A6A9 /* AppDelegate.m */,
+				931F673426E8854600E9A6A9 /* SceneDelegate.h */,
+				931F673526E8854600E9A6A9 /* SceneDelegate.m */,
+				931F673726E8854600E9A6A9 /* ViewController.h */,
+				931F673826E8854600E9A6A9 /* ViewController.m */,
+				931F673A26E8854600E9A6A9 /* Main.storyboard */,
+				931F673D26E8854700E9A6A9 /* Assets.xcassets */,
+				931F673F26E8854700E9A6A9 /* LaunchScreen.storyboard */,
+				931F674226E8854700E9A6A9 /* Info.plist */,
+				931F674326E8854700E9A6A9 /* main.m */,
+			);
+			path = SmartUnify;
+			sourceTree = "<group>";
+		};
+		931F674C26E8854700E9A6A9 /* SmartUnifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				931F674D26E8854700E9A6A9 /* SmartUnifyTests.m */,
+				931F674F26E8854700E9A6A9 /* Info.plist */,
+			);
+			path = SmartUnifyTests;
+			sourceTree = "<group>";
+		};
+		931F675726E8854700E9A6A9 /* SmartUnifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				931F675826E8854700E9A6A9 /* SmartUnifyUITests.m */,
+				931F675A26E8854700E9A6A9 /* Info.plist */,
+			);
+			path = SmartUnifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		931F672D26E8854600E9A6A9 /* SmartUnify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 931F675D26E8854700E9A6A9 /* Build configuration list for PBXNativeTarget "SmartUnify" */;
+			buildPhases = (
+				931F672A26E8854600E9A6A9 /* Sources */,
+				931F672B26E8854600E9A6A9 /* Frameworks */,
+				931F672C26E8854600E9A6A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartUnify;
+			productName = SmartUnify;
+			productReference = 931F672E26E8854600E9A6A9 /* SmartUnify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		931F674826E8854700E9A6A9 /* SmartUnifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 931F676026E8854700E9A6A9 /* Build configuration list for PBXNativeTarget "SmartUnifyTests" */;
+			buildPhases = (
+				931F674526E8854700E9A6A9 /* Sources */,
+				931F674626E8854700E9A6A9 /* Frameworks */,
+				931F674726E8854700E9A6A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				931F674B26E8854700E9A6A9 /* PBXTargetDependency */,
+			);
+			name = SmartUnifyTests;
+			productName = SmartUnifyTests;
+			productReference = 931F674926E8854700E9A6A9 /* SmartUnifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		931F675326E8854700E9A6A9 /* SmartUnifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 931F676326E8854700E9A6A9 /* Build configuration list for PBXNativeTarget "SmartUnifyUITests" */;
+			buildPhases = (
+				931F675026E8854700E9A6A9 /* Sources */,
+				931F675126E8854700E9A6A9 /* Frameworks */,
+				931F675226E8854700E9A6A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				931F675626E8854700E9A6A9 /* PBXTargetDependency */,
+			);
+			name = SmartUnifyUITests;
+			productName = SmartUnifyUITests;
+			productReference = 931F675426E8854700E9A6A9 /* SmartUnifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		931F672626E8854600E9A6A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					931F672D26E8854600E9A6A9 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					931F674826E8854700E9A6A9 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 931F672D26E8854600E9A6A9;
+					};
+					931F675326E8854700E9A6A9 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 931F672D26E8854600E9A6A9;
+					};
+				};
+			};
+			buildConfigurationList = 931F672926E8854600E9A6A9 /* Build configuration list for PBXProject "SmartUnify" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 931F672526E8854600E9A6A9;
+			productRefGroup = 931F672F26E8854600E9A6A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				931F672D26E8854600E9A6A9 /* SmartUnify */,
+				931F674826E8854700E9A6A9 /* SmartUnifyTests */,
+				931F675326E8854700E9A6A9 /* SmartUnifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		931F672C26E8854600E9A6A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931F674126E8854700E9A6A9 /* LaunchScreen.storyboard in Resources */,
+				931F673E26E8854700E9A6A9 /* Assets.xcassets in Resources */,
+				931F673C26E8854600E9A6A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931F674726E8854700E9A6A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931F675226E8854700E9A6A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		931F672A26E8854600E9A6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931F673926E8854600E9A6A9 /* ViewController.m in Sources */,
+				931F673326E8854600E9A6A9 /* AppDelegate.m in Sources */,
+				931F674426E8854700E9A6A9 /* main.m in Sources */,
+				931F673626E8854600E9A6A9 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931F674526E8854700E9A6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931F674E26E8854700E9A6A9 /* SmartUnifyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931F675026E8854700E9A6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931F675926E8854700E9A6A9 /* SmartUnifyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		931F674B26E8854700E9A6A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 931F672D26E8854600E9A6A9 /* SmartUnify */;
+			targetProxy = 931F674A26E8854700E9A6A9 /* PBXContainerItemProxy */;
+		};
+		931F675626E8854700E9A6A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 931F672D26E8854600E9A6A9 /* SmartUnify */;
+			targetProxy = 931F675526E8854700E9A6A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		931F673A26E8854600E9A6A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				931F673B26E8854600E9A6A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		931F673F26E8854700E9A6A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				931F674026E8854700E9A6A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		931F675B26E8854700E9A6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		931F675C26E8854700E9A6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		931F675E26E8854700E9A6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43CR6478ME;
+				INFOPLIST_FILE = SmartUnify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxah.SmartUnify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		931F675F26E8854700E9A6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43CR6478ME;
+				INFOPLIST_FILE = SmartUnify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxah.SmartUnify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		931F676126E8854700E9A6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43CR6478ME;
+				INFOPLIST_FILE = SmartUnifyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxah.SmartUnifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartUnify.app/SmartUnify";
+			};
+			name = Debug;
+		};
+		931F676226E8854700E9A6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43CR6478ME;
+				INFOPLIST_FILE = SmartUnifyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxah.SmartUnifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartUnify.app/SmartUnify";
+			};
+			name = Release;
+		};
+		931F676426E8854700E9A6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43CR6478ME;
+				INFOPLIST_FILE = SmartUnifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxah.SmartUnifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartUnify;
+			};
+			name = Debug;
+		};
+		931F676526E8854700E9A6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43CR6478ME;
+				INFOPLIST_FILE = SmartUnifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxah.SmartUnifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartUnify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		931F672926E8854600E9A6A9 /* Build configuration list for PBXProject "SmartUnify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				931F675B26E8854700E9A6A9 /* Debug */,
+				931F675C26E8854700E9A6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		931F675D26E8854700E9A6A9 /* Build configuration list for PBXNativeTarget "SmartUnify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				931F675E26E8854700E9A6A9 /* Debug */,
+				931F675F26E8854700E9A6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		931F676026E8854700E9A6A9 /* Build configuration list for PBXNativeTarget "SmartUnifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				931F676126E8854700E9A6A9 /* Debug */,
+				931F676226E8854700E9A6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		931F676326E8854700E9A6A9 /* Build configuration list for PBXNativeTarget "SmartUnifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				931F676426E8854700E9A6A9 /* Debug */,
+				931F676526E8854700E9A6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 931F672626E8854600E9A6A9 /* Project object */;
+}
