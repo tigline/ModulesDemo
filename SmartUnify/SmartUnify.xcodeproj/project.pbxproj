@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2327C02CA0A2CB30DFBA966F /* libPods-SmartUnify-SmartUnifyUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA82307D504853CA494CF0B /* libPods-SmartUnify-SmartUnifyUITests.a */; };
+		2AEEAB4C48D5CE1A34FFA875 /* libPods-SmartUnifyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A304EF7A9A3F4FAABEF93127 /* libPods-SmartUnifyTests.a */; };
+		2ECF4CDF03710962152E20D8 /* libPods-SmartUnify.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 776CA4503E02CE4340973A6B /* libPods-SmartUnify.a */; };
 		931F673326E8854600E9A6A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 931F673226E8854600E9A6A9 /* AppDelegate.m */; };
 		931F673626E8854600E9A6A9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 931F673526E8854600E9A6A9 /* SceneDelegate.m */; };
 		931F673926E8854600E9A6A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 931F673826E8854600E9A6A9 /* ViewController.m */; };
@@ -36,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07CB171EDD84702DD83701FF /* Pods-SmartUnify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartUnify.release.xcconfig"; path = "Target Support Files/Pods-SmartUnify/Pods-SmartUnify.release.xcconfig"; sourceTree = "<group>"; };
+		4A477BA67C6364CFE7AD5590 /* Pods-SmartUnify-SmartUnifyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartUnify-SmartUnifyUITests.debug.xcconfig"; path = "Target Support Files/Pods-SmartUnify-SmartUnifyUITests/Pods-SmartUnify-SmartUnifyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B808E06B4D809252D068422 /* Pods-SmartUnify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartUnify.debug.xcconfig"; path = "Target Support Files/Pods-SmartUnify/Pods-SmartUnify.debug.xcconfig"; sourceTree = "<group>"; };
+		664D136D645E02B2539DBA2E /* Pods-SmartUnifyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartUnifyTests.release.xcconfig"; path = "Target Support Files/Pods-SmartUnifyTests/Pods-SmartUnifyTests.release.xcconfig"; sourceTree = "<group>"; };
+		776CA4503E02CE4340973A6B /* libPods-SmartUnify.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartUnify.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA82307D504853CA494CF0B /* libPods-SmartUnify-SmartUnifyUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartUnify-SmartUnifyUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		931F672E26E8854600E9A6A9 /* SmartUnify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartUnify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		931F673126E8854600E9A6A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		931F673226E8854600E9A6A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +63,9 @@
 		931F675426E8854700E9A6A9 /* SmartUnifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartUnifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		931F675826E8854700E9A6A9 /* SmartUnifyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartUnifyUITests.m; sourceTree = "<group>"; };
 		931F675A26E8854700E9A6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A304EF7A9A3F4FAABEF93127 /* libPods-SmartUnifyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartUnifyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6265AE830A6D4993D1030F4 /* Pods-SmartUnify-SmartUnifyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartUnify-SmartUnifyUITests.release.xcconfig"; path = "Target Support Files/Pods-SmartUnify-SmartUnifyUITests/Pods-SmartUnify-SmartUnifyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EABE4D6672FA4B3D8210F0EB /* Pods-SmartUnifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartUnifyTests.debug.xcconfig"; path = "Target Support Files/Pods-SmartUnifyTests/Pods-SmartUnifyTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ECF4CDF03710962152E20D8 /* libPods-SmartUnify.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AEEAB4C48D5CE1A34FFA875 /* libPods-SmartUnifyTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +89,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2327C02CA0A2CB30DFBA966F /* libPods-SmartUnify-SmartUnifyUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12C81D88C037FF3036A78189 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B808E06B4D809252D068422 /* Pods-SmartUnify.debug.xcconfig */,
+				07CB171EDD84702DD83701FF /* Pods-SmartUnify.release.xcconfig */,
+				4A477BA67C6364CFE7AD5590 /* Pods-SmartUnify-SmartUnifyUITests.debug.xcconfig */,
+				D6265AE830A6D4993D1030F4 /* Pods-SmartUnify-SmartUnifyUITests.release.xcconfig */,
+				EABE4D6672FA4B3D8210F0EB /* Pods-SmartUnifyTests.debug.xcconfig */,
+				664D136D645E02B2539DBA2E /* Pods-SmartUnifyTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		931F672526E8854600E9A6A9 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +117,8 @@
 				931F674C26E8854700E9A6A9 /* SmartUnifyTests */,
 				931F675726E8854700E9A6A9 /* SmartUnifyUITests */,
 				931F672F26E8854600E9A6A9 /* Products */,
+				12C81D88C037FF3036A78189 /* Pods */,
+				D3939FDE37063413EA2D5E64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +168,16 @@
 			path = SmartUnifyUITests;
 			sourceTree = "<group>";
 		};
+		D3939FDE37063413EA2D5E64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				776CA4503E02CE4340973A6B /* libPods-SmartUnify.a */,
+				7BA82307D504853CA494CF0B /* libPods-SmartUnify-SmartUnifyUITests.a */,
+				A304EF7A9A3F4FAABEF93127 /* libPods-SmartUnifyTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 931F675D26E8854700E9A6A9 /* Build configuration list for PBXNativeTarget "SmartUnify" */;
 			buildPhases = (
+				6D50910DAB9A4587505ECEE4 /* [CP] Check Pods Manifest.lock */,
 				931F672A26E8854600E9A6A9 /* Sources */,
 				931F672B26E8854600E9A6A9 /* Frameworks */,
 				931F672C26E8854600E9A6A9 /* Resources */,
+				305DA1BAD6A972BE1720AFD5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 931F676026E8854700E9A6A9 /* Build configuration list for PBXNativeTarget "SmartUnifyTests" */;
 			buildPhases = (
+				D764EC354663CAB741CA6260 /* [CP] Check Pods Manifest.lock */,
 				931F674526E8854700E9A6A9 /* Sources */,
 				931F674626E8854700E9A6A9 /* Frameworks */,
 				931F674726E8854700E9A6A9 /* Resources */,
@@ -179,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 931F676326E8854700E9A6A9 /* Build configuration list for PBXNativeTarget "SmartUnifyUITests" */;
 			buildPhases = (
+				A5C46A8915A0CE4A8D609242 /* [CP] Check Pods Manifest.lock */,
 				931F675026E8854700E9A6A9 /* Sources */,
 				931F675126E8854700E9A6A9 /* Frameworks */,
 				931F675226E8854700E9A6A9 /* Resources */,
+				F002814C3C0285F189A9C8BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +306,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		305DA1BAD6A972BE1720AFD5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartUnify/Pods-SmartUnify-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartUnify/Pods-SmartUnify-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartUnify/Pods-SmartUnify-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D50910DAB9A4587505ECEE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartUnify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5C46A8915A0CE4A8D609242 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartUnify-SmartUnifyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D764EC354663CAB741CA6260 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartUnifyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F002814C3C0285F189A9C8BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartUnify-SmartUnifyUITests/Pods-SmartUnify-SmartUnifyUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartUnify-SmartUnifyUITests/Pods-SmartUnify-SmartUnifyUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartUnify-SmartUnifyUITests/Pods-SmartUnify-SmartUnifyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		931F672A26E8854600E9A6A9 /* Sources */ = {
@@ -438,6 +587,7 @@
 		};
 		931F675E26E8854700E9A6A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B808E06B4D809252D068422 /* Pods-SmartUnify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +606,7 @@
 		};
 		931F675F26E8854700E9A6A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07CB171EDD84702DD83701FF /* Pods-SmartUnify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,6 +625,7 @@
 		};
 		931F676126E8854700E9A6A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EABE4D6672FA4B3D8210F0EB /* Pods-SmartUnifyTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +646,7 @@
 		};
 		931F676226E8854700E9A6A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 664D136D645E02B2539DBA2E /* Pods-SmartUnifyTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +667,7 @@
 		};
 		931F676426E8854700E9A6A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A477BA67C6364CFE7AD5590 /* Pods-SmartUnify-SmartUnifyUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 43CR6478ME;
@@ -532,6 +686,7 @@
 		};
 		931F676526E8854700E9A6A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6265AE830A6D4993D1030F4 /* Pods-SmartUnify-SmartUnifyUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 43CR6478ME;

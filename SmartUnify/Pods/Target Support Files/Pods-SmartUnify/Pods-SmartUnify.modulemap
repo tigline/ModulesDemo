@@ -1,0 +1,6 @@
+framework module Pods_SmartUnify {
+  umbrella header "Pods-SmartUnify-umbrella.h"
+
+  export *
+  module * { export * }
+}

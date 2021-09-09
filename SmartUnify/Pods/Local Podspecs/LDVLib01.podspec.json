@@ -1,0 +1,26 @@
+{
+  "name": "LDVLib01",
+  "version": "0.1.0",
+  "summary": "A short description of LDVLib01.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tigline/LDVLib01",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tigline": "projectgame@163.com"
+  },
+  "source": {
+    "git": "https://github.com/tigline/LDVLib01.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "**/*.{h}",
+  "vendored_libraries": "**/*.{a}",
+  "vendored_frameworks": "**/*.framework",
+  "exclude_files": "**/*.framework/**/*",
+  "resources": "**/*.{bundle,lib,png,xib,jpg,mp3,mp4,json}"
+}

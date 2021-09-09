@@ -1,0 +1,970 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		DEA6FCDCB8C3F4A237A56CA93F7C835C /* LDVLib01 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C76693FF6FFB97C0CFFA7F0159460E10 /* Build configuration list for PBXAggregateTarget "LDVLib01" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = LDVLib01;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0DC3A1C336F332E9745DD6EAC00157B6 /* Pods-SmartUnify-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D594FD5206A6BB34FACC5F11F36033F2 /* Pods-SmartUnify-dummy.m */; };
+		B48A192EDB2C78C162A87FE755911FFB /* Pods-SmartUnifyTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F05723A95AC2F3C550CEFC5ED6A2CB6D /* Pods-SmartUnifyTests-dummy.m */; };
+		C78FA8D9D742057AF614EBCA430FEE7C /* Pods-SmartUnify-SmartUnifyUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6B2A2890E7E7C2B9347E56384B780 /* Pods-SmartUnify-SmartUnifyUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05C7CCF307FC8A0E3DBEADBDEFC4BD2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 443AC7370653F59B1BF69FF65C49CF19;
+			remoteInfo = "Pods-SmartUnify";
+		};
+		4BE054C3413884175B11FD12B8C0CD61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA6FCDCB8C3F4A237A56CA93F7C835C;
+			remoteInfo = LDVLib01;
+		};
+		6DFCF91F85A6E396BD606C70A93BA3A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA6FCDCB8C3F4A237A56CA93F7C835C;
+			remoteInfo = LDVLib01;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018C7DD68E01C8D955E58E099715438D /* LDVLib01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDVLib01.release.xcconfig; sourceTree = "<group>"; };
+		05D3AF678D3036EA815E0DEF8E887DF2 /* XCollectionViewSectionComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCollectionViewSectionComponent.h; sourceTree = "<group>"; };
+		06656408E5D594A2DEA5635D170D2CE1 /* libPods-SmartUnifyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SmartUnifyTests.a"; path = "libPods-SmartUnifyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C4272FDAF65BA4984408532BBC9320 /* XTableViewComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XTableViewComponent.h; sourceTree = "<group>"; };
+		07F0B45DA465CB46F14E3F1C886EAB37 /* EzvizTextViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EzvizTextViewDelegate.h; sourceTree = "<group>"; };
+		0889E85FA8029602949E65A9821A71BA /* XTableViewCellComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XTableViewCellComponent.h; sourceTree = "<group>"; };
+		0CD0DAD5274284A79A4F7785C2B498D9 /* XTableViewSectionComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XTableViewSectionComponent.h; sourceTree = "<group>"; };
+		1AD0A47A42C0EB02317B5A2B6C1C591F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1F1889D56F511709ACA7B61E4A0C16A9 /* libPods-SmartUnify-SmartUnifyUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SmartUnify-SmartUnifyUITests.a"; path = "libPods-SmartUnify-SmartUnifyUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F2BBD75AF7AED22965CB42A87463411 /* Pods-LDVLib01_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LDVLib01_Tests-umbrella.h"; sourceTree = "<group>"; };
+		20CAC8EBB774A4FA976863B48460DD29 /* Pods-SmartUnify-SmartUnifyUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartUnify-SmartUnifyUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		22272B54344066D6AD2EDE4C79D4A65A /* YSRNActionSheetController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSRNActionSheetController.h; sourceTree = "<group>"; };
+		2828C046F62992A6447A9FEB4481C7B7 /* commonui_refresh@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "commonui_refresh@3x.png"; sourceTree = "<group>"; };
+		2A6684E827FCE3DEBA39F0E927F22C29 /* Pods-SmartUnify-SmartUnifyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartUnify-SmartUnifyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3010973A6DD3C9854F857FF89E2CF9DB /* XCollectionViewComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCollectionViewComponent.h; sourceTree = "<group>"; };
+		309EEC862238E50D81430FD73C7D5BDC /* XListDiffResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XListDiffResult.h; sourceTree = "<group>"; };
+		310B048624FEF4C6C3527CC07C3628E0 /* Pods-SmartUnifyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartUnifyTests.release.xcconfig"; sourceTree = "<group>"; };
+		3365005761E6ACE68E9F4CE8029AB5E6 /* YSAlarmVideoPicInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSAlarmVideoPicInfo.h; sourceTree = "<group>"; };
+		3372CB801D7A6373E1E95596EBDAB3A2 /* EZRNAICardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EZRNAICardView.h; sourceTree = "<group>"; };
+		3890A00623A9E9062B7FAFF879173896 /* LDVLib01-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDVLib01-umbrella.h"; sourceTree = "<group>"; };
+		3BCE5F0E8C5F9DB182269232CD3794DF /* LDVLib01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDVLib01.debug.xcconfig; sourceTree = "<group>"; };
+		42695473C18359B661AA1AD399E090CE /* Pods-SmartUnifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartUnifyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		439BC9D42CED1EDC968D3992E586F43F /* YSErrorReportInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSErrorReportInfo.h; sourceTree = "<group>"; };
+		4C2F34E7832E94DD4A132BBCB010E25B /* XTableViewViewComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XTableViewViewComponent.h; sourceTree = "<group>"; };
+		538E62BFBF4B233DE34E5BE457367C1A /* EzivzTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EzivzTextView.h; sourceTree = "<group>"; };
+		67FA6407E166DAA5913E98F7E95EDF18 /* Pods-SmartUnify-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartUnify-resources.sh"; sourceTree = "<group>"; };
+		6D3190148F4438699901116450F890B5 /* XCollectionViewCellComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCollectionViewCellComponent.h; sourceTree = "<group>"; };
+		73BB6F306E952133E35A43D09F506A2A /* XCollectionViewComponentProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCollectionViewComponentProtocol.h; sourceTree = "<group>"; };
+		791AF907E6EC28ED52539B185B31F2D5 /* UITableView+XFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+XFoundation.h"; sourceTree = "<group>"; };
+		7921D9F27C4A39B84A488C0D30AFF9E8 /* Pods-SmartUnify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartUnify.release.xcconfig"; sourceTree = "<group>"; };
+		7FA36A1FA6E3B458BAE74359B64676A9 /* LDVLib01.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LDVLib01.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		88B38DB439B1076D46C0E3C3B9B60757 /* libldv_c_common_busi.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libldv_c_common_busi.a; path = Library/libldv_c_common_busi.a; sourceTree = "<group>"; };
+		8A52A6E9B2303CC135451B2DBFA32C0D /* XCollectionViewComponentRegister.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCollectionViewComponentRegister.h; sourceTree = "<group>"; };
+		8AD687FBF90099E38144C07BA219F25A /* Pods-SmartUnifyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartUnifyTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8AE459E8B97E171F1D89120F713935F6 /* EzvizRNBridge+CommonUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EzvizRNBridge+CommonUI.h"; sourceTree = "<group>"; };
+		8ECFD1D1C777C7378E7A06FD95E6F1A4 /* commonui_refresh@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "commonui_refresh@2x.png"; sourceTree = "<group>"; };
+		96D0320BAC5BA50F4690BD738453569B /* XTableViewComponentEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XTableViewComponentEvent.h; sourceTree = "<group>"; };
+		99C62E639D15BD289906BFDA34DCA316 /* XCollectionViewViewComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCollectionViewViewComponent.h; sourceTree = "<group>"; };
+		9BD6B2A2890E7E7C2B9347E56384B780 /* Pods-SmartUnify-SmartUnifyUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartUnify-SmartUnifyUITests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A14CA9D2EEF16690765EBA165F40F5C0 /* XTableViewCellHeightCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XTableViewCellHeightCache.h; sourceTree = "<group>"; };
+		A371FE57749E2591A03BBB353746DB3C /* Pods-SmartUnifyTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartUnifyTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A62D8AEBB24F2FE85DB5D22C845FC914 /* XCollectionViewFlowLayoutComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCollectionViewFlowLayoutComponent.h; sourceTree = "<group>"; };
+		AF398575EBAB4056C4F6D3F6EAECB65C /* EZRNAISetCardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EZRNAISetCardView.h; sourceTree = "<group>"; };
+		AFABA18FEB465A51043889196C976FF1 /* Pods-SmartUnify-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartUnify-acknowledgements.plist"; sourceTree = "<group>"; };
+		B0E41E6DFBA0C5E6DB3BB411A45232FC /* XListDiff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XListDiff.h; sourceTree = "<group>"; };
+		B3056E28D7AA357FF5FE495C1A885258 /* YSOperationReportInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSOperationReportInfo.h; sourceTree = "<group>"; };
+		C29BFFC5437FF72BFEC676E07363820F /* UIImageView+YSImageKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+YSImageKit.h"; sourceTree = "<group>"; };
+		CC7B5E8D90B801CAB9C622781ECE7752 /* commonui_close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "commonui_close@2x.png"; sourceTree = "<group>"; };
+		CE6A891CA840DD7A9A23356B83DC962E /* Pods-SmartUnify-SmartUnifyUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartUnify-SmartUnifyUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D1989F313194CB7604687B01BF0BF9B2 /* Pods-SmartUnify-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartUnify-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D594FD5206A6BB34FACC5F11F36033F2 /* Pods-SmartUnify-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartUnify-dummy.m"; sourceTree = "<group>"; };
+		D5FDE6575F8A8E63EEA91AEEE64A23CB /* XTableViewComponentContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XTableViewComponentContext.h; sourceTree = "<group>"; };
+		D9DE9FA16E45268425B4B21D56370420 /* XSentinel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XSentinel.h; sourceTree = "<group>"; };
+		DD9788047100E7698FE32EEFFCA14390 /* YSRNAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSRNAlertController.h; sourceTree = "<group>"; };
+		E19A4C1481BD37B17859BB460A0CCB53 /* XTableViewComponentRegister.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XTableViewComponentRegister.h; sourceTree = "<group>"; };
+		E43C28D03E48C812C6BFB8359983BA82 /* libPods-SmartUnify.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SmartUnify.a"; path = "libPods-SmartUnify.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6D5948BBCBFA440BB5F5568D10EEDF1 /* LDVLib01.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; path = LDVLib01.podspec.json; sourceTree = "<group>"; };
+		E7AB82065D465B2AD559E732715A3F3D /* Pods-SmartUnify-SmartUnifyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartUnify-SmartUnifyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8ACEFEAD9B50ECC2A51043C33DC3F02 /* Pods-SmartUnify-SmartUnifyUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartUnify-SmartUnifyUITests-resources.sh"; sourceTree = "<group>"; };
+		E9B8846FF6A334CE6D5EC0148CF15307 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EC40B5FDA5C08B6C6BE6CEF742EF3F8D /* XCollectionViewContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCollectionViewContext.h; sourceTree = "<group>"; };
+		EC95EEF2846B5D70B7C4F86B10D99F66 /* HIKServiceNetSdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HIKServiceNetSdk.h; sourceTree = "<group>"; };
+		F05723A95AC2F3C550CEFC5ED6A2CB6D /* Pods-SmartUnifyTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartUnifyTests-dummy.m"; sourceTree = "<group>"; };
+		F376F992FD937FF59DCB8CDE08220835 /* Pods-SmartUnify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartUnify.debug.xcconfig"; sourceTree = "<group>"; };
+		F4346FD0DD4C4CC4F9CB90A5913E4954 /* XCollectionViewComponentEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCollectionViewComponentEvent.h; sourceTree = "<group>"; };
+		F7F89D683E3D4FA9F520019864D0AC03 /* commonui_close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "commonui_close@3x.png"; sourceTree = "<group>"; };
+		F910BFF96C14C3E4B25019A94DDE0AC7 /* XTableViewComponentProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XTableViewComponentProtocol.h; sourceTree = "<group>"; };
+		FFF61B01EDF72EE8760BBC8E538D598F /* YSAlarmInfoPraseTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSAlarmInfoPraseTool.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75C2B597E7622D376C5F0EBD6A4A518E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EBC989F5A6CDC3030B5AE5CFE9D70A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C14B01A1ED0BFAE2AF39D180055FBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0487AC49E0AC96836354E7D73AAA89E5 /* LDVLib01 */ = {
+			isa = PBXGroup;
+			children = (
+				3890A00623A9E9062B7FAFF879173896 /* LDVLib01-umbrella.h */,
+			);
+			name = LDVLib01;
+			path = LDVLib01;
+			sourceTree = "<group>";
+		};
+		0909543A640CAC7EFB7B728B245FAE11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E43C28D03E48C812C6BFB8359983BA82 /* libPods-SmartUnify.a */,
+				1F1889D56F511709ACA7B61E4A0C16A9 /* libPods-SmartUnify-SmartUnifyUITests.a */,
+				06656408E5D594A2DEA5635D170D2CE1 /* libPods-SmartUnifyTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		110F6D99174E268CCBE2231188426531 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				914BA13799CC6E9247ABF58B2E1F1F84 /* Pods */,
+			);
+			name = Example;
+			path = Example;
+			sourceTree = "<group>";
+		};
+		1AB001C0B52056405271B83F456A1FC5 /* LDVLib01 */ = {
+			isa = PBXGroup;
+			children = (
+				110F6D99174E268CCBE2231188426531 /* Example */,
+				8429B26B59F3ED434D43FFED618FD287 /* Frameworks */,
+				AF166B5D9A6403CA72F1EF5AF052C5AE /* Pod */,
+				B7E236B369682BA21CD24E1C069C99E2 /* Source */,
+				6A95BCE85B79FA7E81B1D2E245124EC0 /* Support Files */,
+			);
+			name = LDVLib01;
+			path = ../../LDVLib01;
+			sourceTree = "<group>";
+		};
+		24C904AC2E914DA542A41DEB8C62645E /* ServerSetAndErrorTip */ = {
+			isa = PBXGroup;
+			children = (
+				EC95EEF2846B5D70B7C4F86B10D99F66 /* HIKServiceNetSdk.h */,
+			);
+			name = ServerSetAndErrorTip;
+			path = ServerSetAndErrorTip;
+			sourceTree = "<group>";
+		};
+		44B6F650B6C50ACC5948FB49E54870F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58244C0876BD9D9A459E89FBCFF3DD6F /* Pods-SmartUnify */,
+				DB3BB259CB2ABF5C5DBB2E1F67FD5330 /* Pods-SmartUnify-SmartUnifyUITests */,
+				64EE7FA5E849C7AD3CDAF3D757CA9501 /* Pods-SmartUnifyTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		531AECCD6E0D360255F6DF8E10D555FF /* YSImageKitBusi */ = {
+			isa = PBXGroup;
+			children = (
+				C29BFFC5437FF72BFEC676E07363820F /* UIImageView+YSImageKit.h */,
+				FFF61B01EDF72EE8760BBC8E538D598F /* YSAlarmInfoPraseTool.h */,
+				3365005761E6ACE68E9F4CE8029AB5E6 /* YSAlarmVideoPicInfo.h */,
+			);
+			name = YSImageKitBusi;
+			path = YSImageKitBusi;
+			sourceTree = "<group>";
+		};
+		58244C0876BD9D9A459E89FBCFF3DD6F /* Pods-SmartUnify */ = {
+			isa = PBXGroup;
+			children = (
+				D1989F313194CB7604687B01BF0BF9B2 /* Pods-SmartUnify-acknowledgements.markdown */,
+				AFABA18FEB465A51043889196C976FF1 /* Pods-SmartUnify-acknowledgements.plist */,
+				D594FD5206A6BB34FACC5F11F36033F2 /* Pods-SmartUnify-dummy.m */,
+				67FA6407E166DAA5913E98F7E95EDF18 /* Pods-SmartUnify-resources.sh */,
+				F376F992FD937FF59DCB8CDE08220835 /* Pods-SmartUnify.debug.xcconfig */,
+				7921D9F27C4A39B84A488C0D30AFF9E8 /* Pods-SmartUnify.release.xcconfig */,
+			);
+			name = "Pods-SmartUnify";
+			path = "Target Support Files/Pods-SmartUnify";
+			sourceTree = "<group>";
+		};
+		64EE7FA5E849C7AD3CDAF3D757CA9501 /* Pods-SmartUnifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A371FE57749E2591A03BBB353746DB3C /* Pods-SmartUnifyTests-acknowledgements.markdown */,
+				8AD687FBF90099E38144C07BA219F25A /* Pods-SmartUnifyTests-acknowledgements.plist */,
+				F05723A95AC2F3C550CEFC5ED6A2CB6D /* Pods-SmartUnifyTests-dummy.m */,
+				42695473C18359B661AA1AD399E090CE /* Pods-SmartUnifyTests.debug.xcconfig */,
+				310B048624FEF4C6C3527CC07C3628E0 /* Pods-SmartUnifyTests.release.xcconfig */,
+			);
+			name = "Pods-SmartUnifyTests";
+			path = "Target Support Files/Pods-SmartUnifyTests";
+			sourceTree = "<group>";
+		};
+		689C368306B90A778F2B04497AEC8780 /* EzvizTextView */ = {
+			isa = PBXGroup;
+			children = (
+				538E62BFBF4B233DE34E5BE457367C1A /* EzivzTextView.h */,
+				07F0B45DA465CB46F14E3F1C886EAB37 /* EzvizTextViewDelegate.h */,
+			);
+			name = EzvizTextView;
+			path = EzvizTextView;
+			sourceTree = "<group>";
+		};
+		6A95BCE85B79FA7E81B1D2E245124EC0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BCE5F0E8C5F9DB182269232CD3794DF /* LDVLib01.debug.xcconfig */,
+				018C7DD68E01C8D955E58E099715438D /* LDVLib01.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../SmartUnify/Pods/Target Support Files/LDVLib01";
+			sourceTree = "<group>";
+		};
+		70994B4E95D13AB12642C66D4DBB4858 /* C_YSCommonBusi */ = {
+			isa = PBXGroup;
+			children = (
+				B1D4F4BDA01C864957BBCF21C5CA8EEA /* EZRNAICardView */,
+				689C368306B90A778F2B04497AEC8780 /* EzvizTextView */,
+				BD2433E85060A00F270993D8B23960DE /* Report */,
+				C811525606208D9D37B0F834428D121B /* Resource */,
+				24C904AC2E914DA542A41DEB8C62645E /* ServerSetAndErrorTip */,
+				D225F33E0F7EC19F929566597AC00639 /* UI */,
+				531AECCD6E0D360255F6DF8E10D555FF /* YSImageKitBusi */,
+			);
+			name = C_YSCommonBusi;
+			path = C_YSCommonBusi;
+			sourceTree = "<group>";
+		};
+		7B2CB0346735CEC4D42D4A6810D2DB66 /* UICollectionViewComponent */ = {
+			isa = PBXGroup;
+			children = (
+				6D3190148F4438699901116450F890B5 /* XCollectionViewCellComponent.h */,
+				3010973A6DD3C9854F857FF89E2CF9DB /* XCollectionViewComponent.h */,
+				F4346FD0DD4C4CC4F9CB90A5913E4954 /* XCollectionViewComponentEvent.h */,
+				73BB6F306E952133E35A43D09F506A2A /* XCollectionViewComponentProtocol.h */,
+				8A52A6E9B2303CC135451B2DBFA32C0D /* XCollectionViewComponentRegister.h */,
+				EC40B5FDA5C08B6C6BE6CEF742EF3F8D /* XCollectionViewContext.h */,
+				A62D8AEBB24F2FE85DB5D22C845FC914 /* XCollectionViewFlowLayoutComponent.h */,
+				05D3AF678D3036EA815E0DEF8E887DF2 /* XCollectionViewSectionComponent.h */,
+				99C62E639D15BD289906BFDA34DCA316 /* XCollectionViewViewComponent.h */,
+			);
+			name = UICollectionViewComponent;
+			path = UICollectionViewComponent;
+			sourceTree = "<group>";
+		};
+		8429B26B59F3ED434D43FFED618FD287 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88B38DB439B1076D46C0E3C3B9B60757 /* libldv_c_common_busi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		914BA13799CC6E9247ABF58B2E1F1F84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B3047625228CB4A1E48DB1D7511ED28 /* Local Podspecs */,
+				A791041A631231B145A8AB7892169164 /* Target Support Files */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		94B4CEF5C141D5EF0C79E470B6A4842A /* UITableViewComponent */ = {
+			isa = PBXGroup;
+			children = (
+				791AF907E6EC28ED52539B185B31F2D5 /* UITableView+XFoundation.h */,
+				B0E41E6DFBA0C5E6DB3BB411A45232FC /* XListDiff.h */,
+				309EEC862238E50D81430FD73C7D5BDC /* XListDiffResult.h */,
+				D9DE9FA16E45268425B4B21D56370420 /* XSentinel.h */,
+				0889E85FA8029602949E65A9821A71BA /* XTableViewCellComponent.h */,
+				A14CA9D2EEF16690765EBA165F40F5C0 /* XTableViewCellHeightCache.h */,
+				06C4272FDAF65BA4984408532BBC9320 /* XTableViewComponent.h */,
+				D5FDE6575F8A8E63EEA91AEEE64A23CB /* XTableViewComponentContext.h */,
+				96D0320BAC5BA50F4690BD738453569B /* XTableViewComponentEvent.h */,
+				F910BFF96C14C3E4B25019A94DDE0AC7 /* XTableViewComponentProtocol.h */,
+				E19A4C1481BD37B17859BB460A0CCB53 /* XTableViewComponentRegister.h */,
+				0CD0DAD5274284A79A4F7785C2B498D9 /* XTableViewSectionComponent.h */,
+				4C2F34E7832E94DD4A132BBCB010E25B /* XTableViewViewComponent.h */,
+			);
+			name = UITableViewComponent;
+			path = UITableViewComponent;
+			sourceTree = "<group>";
+		};
+		9B3047625228CB4A1E48DB1D7511ED28 /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+				E6D5948BBCBFA440BB5F5568D10EEDF1 /* LDVLib01.podspec.json */,
+			);
+			name = "Local Podspecs";
+			path = "Local Podspecs";
+			sourceTree = "<group>";
+		};
+		A0AB711B595B7E521ECCC32AED67A118 /* Pods-LDVLib01_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1F2BBD75AF7AED22965CB42A87463411 /* Pods-LDVLib01_Tests-umbrella.h */,
+			);
+			name = "Pods-LDVLib01_Tests";
+			path = "Pods-LDVLib01_Tests";
+			sourceTree = "<group>";
+		};
+		A791041A631231B145A8AB7892169164 /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0487AC49E0AC96836354E7D73AAA89E5 /* LDVLib01 */,
+				A0AB711B595B7E521ECCC32AED67A118 /* Pods-LDVLib01_Tests */,
+			);
+			name = "Target Support Files";
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+		AF166B5D9A6403CA72F1EF5AF052C5AE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7FA36A1FA6E3B458BAE74359B64676A9 /* LDVLib01.podspec */,
+				1AD0A47A42C0EB02317B5A2B6C1C591F /* LICENSE */,
+				E9B8846FF6A334CE6D5EC0148CF15307 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B1D4F4BDA01C864957BBCF21C5CA8EEA /* EZRNAICardView */ = {
+			isa = PBXGroup;
+			children = (
+				3372CB801D7A6373E1E95596EBDAB3A2 /* EZRNAICardView.h */,
+				AF398575EBAB4056C4F6D3F6EAECB65C /* EZRNAISetCardView.h */,
+			);
+			name = EZRNAICardView;
+			path = EZRNAICardView;
+			sourceTree = "<group>";
+		};
+		B7E236B369682BA21CD24E1C069C99E2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				70994B4E95D13AB12642C66D4DBB4858 /* C_YSCommonBusi */,
+			);
+			name = Source;
+			path = Source;
+			sourceTree = "<group>";
+		};
+		BD2433E85060A00F270993D8B23960DE /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				439BC9D42CED1EDC968D3992E586F43F /* YSErrorReportInfo.h */,
+				B3056E28D7AA357FF5FE495C1A885258 /* YSOperationReportInfo.h */,
+			);
+			name = Report;
+			path = Report;
+			sourceTree = "<group>";
+		};
+		C811525606208D9D37B0F834428D121B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CC7B5E8D90B801CAB9C622781ECE7752 /* commonui_close@2x.png */,
+				F7F89D683E3D4FA9F520019864D0AC03 /* commonui_close@3x.png */,
+				8ECFD1D1C777C7378E7A06FD95E6F1A4 /* commonui_refresh@2x.png */,
+				2828C046F62992A6447A9FEB4481C7B7 /* commonui_refresh@3x.png */,
+			);
+			name = Resource;
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F47AFA08FFB9EC4EF331EA8191A5B7E9 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				0909543A640CAC7EFB7B728B245FAE11 /* Products */,
+				44B6F650B6C50ACC5948FB49E54870F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D225F33E0F7EC19F929566597AC00639 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8AE459E8B97E171F1D89120F713935F6 /* EzvizRNBridge+CommonUI.h */,
+				22272B54344066D6AD2EDE4C79D4A65A /* YSRNActionSheetController.h */,
+				DD9788047100E7698FE32EEFFCA14390 /* YSRNAlertController.h */,
+				7B2CB0346735CEC4D42D4A6810D2DB66 /* UICollectionViewComponent */,
+				94B4CEF5C141D5EF0C79E470B6A4842A /* UITableViewComponent */,
+			);
+			name = UI;
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB3BB259CB2ABF5C5DBB2E1F67FD5330 /* Pods-SmartUnify-SmartUnifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20CAC8EBB774A4FA976863B48460DD29 /* Pods-SmartUnify-SmartUnifyUITests-acknowledgements.markdown */,
+				CE6A891CA840DD7A9A23356B83DC962E /* Pods-SmartUnify-SmartUnifyUITests-acknowledgements.plist */,
+				9BD6B2A2890E7E7C2B9347E56384B780 /* Pods-SmartUnify-SmartUnifyUITests-dummy.m */,
+				E8ACEFEAD9B50ECC2A51043C33DC3F02 /* Pods-SmartUnify-SmartUnifyUITests-resources.sh */,
+				E7AB82065D465B2AD559E732715A3F3D /* Pods-SmartUnify-SmartUnifyUITests.debug.xcconfig */,
+				2A6684E827FCE3DEBA39F0E927F22C29 /* Pods-SmartUnify-SmartUnifyUITests.release.xcconfig */,
+			);
+			name = "Pods-SmartUnify-SmartUnifyUITests";
+			path = "Target Support Files/Pods-SmartUnify-SmartUnifyUITests";
+			sourceTree = "<group>";
+		};
+		F47AFA08FFB9EC4EF331EA8191A5B7E9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AB001C0B52056405271B83F456A1FC5 /* LDVLib01 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		83B71DC2D53EAFFAB3242938D214E75C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC8A5A3BB01EC1A42674A59BB4EFBBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D99EBC83EECB5DC539587AD2B981FD22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1DA1BCB7EDA7324206C26451E28A23FB /* Pods-SmartUnify-SmartUnifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5088D71ABAD40EFAC22688A2B592F70 /* Build configuration list for PBXNativeTarget "Pods-SmartUnify-SmartUnifyUITests" */;
+			buildPhases = (
+				83B71DC2D53EAFFAB3242938D214E75C /* Headers */,
+				56C2E7BA6BDB9B785F3F229C5B16DAF7 /* Sources */,
+				7EBC989F5A6CDC3030B5AE5CFE9D70A6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D61038164FFB9CE1818EA0E4524D2986 /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartUnify-SmartUnifyUITests";
+			productName = "Pods-SmartUnify-SmartUnifyUITests";
+			productReference = 1F1889D56F511709ACA7B61E4A0C16A9 /* libPods-SmartUnify-SmartUnifyUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		443AC7370653F59B1BF69FF65C49CF19 /* Pods-SmartUnify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B964E512D4CDD501FD023E6CF1C53FC1 /* Build configuration list for PBXNativeTarget "Pods-SmartUnify" */;
+			buildPhases = (
+				D99EBC83EECB5DC539587AD2B981FD22 /* Headers */,
+				F514D436037F8221237178B802350FEF /* Sources */,
+				75C2B597E7622D376C5F0EBD6A4A518E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2E8CAFC9331CEA8E5F026413B5E9678 /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartUnify";
+			productName = "Pods-SmartUnify";
+			productReference = E43C28D03E48C812C6BFB8359983BA82 /* libPods-SmartUnify.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BC0A51287E834D9CA6A5DBD6A67313D4 /* Pods-SmartUnifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 914C694DE6B0C391EE5331F303A9BE53 /* Build configuration list for PBXNativeTarget "Pods-SmartUnifyTests" */;
+			buildPhases = (
+				BEC8A5A3BB01EC1A42674A59BB4EFBBE /* Headers */,
+				43FF9780A8723ADA494445336859F3C8 /* Sources */,
+				87C14B01A1ED0BFAE2AF39D180055FBB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92D900086AE3DCB3F908F77548322F1B /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartUnifyTests";
+			productName = "Pods-SmartUnifyTests";
+			productReference = 06656408E5D594A2DEA5635D170D2CE1 /* libPods-SmartUnifyTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0909543A640CAC7EFB7B728B245FAE11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEA6FCDCB8C3F4A237A56CA93F7C835C /* LDVLib01 */,
+				443AC7370653F59B1BF69FF65C49CF19 /* Pods-SmartUnify */,
+				1DA1BCB7EDA7324206C26451E28A23FB /* Pods-SmartUnify-SmartUnifyUITests */,
+				BC0A51287E834D9CA6A5DBD6A67313D4 /* Pods-SmartUnifyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43FF9780A8723ADA494445336859F3C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48A192EDB2C78C162A87FE755911FFB /* Pods-SmartUnifyTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C2E7BA6BDB9B785F3F229C5B16DAF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78FA8D9D742057AF614EBCA430FEE7C /* Pods-SmartUnify-SmartUnifyUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F514D436037F8221237178B802350FEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC3A1C336F332E9745DD6EAC00157B6 /* Pods-SmartUnify-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92D900086AE3DCB3F908F77548322F1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SmartUnify";
+			target = 443AC7370653F59B1BF69FF65C49CF19 /* Pods-SmartUnify */;
+			targetProxy = 05C7CCF307FC8A0E3DBEADBDEFC4BD2E /* PBXContainerItemProxy */;
+		};
+		D61038164FFB9CE1818EA0E4524D2986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LDVLib01;
+			target = DEA6FCDCB8C3F4A237A56CA93F7C835C /* LDVLib01 */;
+			targetProxy = 4BE054C3413884175B11FD12B8C0CD61 /* PBXContainerItemProxy */;
+		};
+		E2E8CAFC9331CEA8E5F026413B5E9678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LDVLib01;
+			target = DEA6FCDCB8C3F4A237A56CA93F7C835C /* LDVLib01 */;
+			targetProxy = 6DFCF91F85A6E396BD606C70A93BA3A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F0D71B311E4833FF676CC267CD52CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F376F992FD937FF59DCB8CDE08220835 /* Pods-SmartUnify.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B68F5D2EFAA2647E49EABB7D7465FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BCE5F0E8C5F9DB182269232CD3794DF /* LDVLib01.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		765ED6B8E58B582932AB002C711C04D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 018C7DD68E01C8D955E58E099715438D /* LDVLib01.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79EF01087DF64E77F28C9C702EABBDEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7AB82065D465B2AD559E732715A3F3D /* Pods-SmartUnify-SmartUnifyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A2F1AEEC1916D5F7D2046FE08C4CF4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7921D9F27C4A39B84A488C0D30AFF9E8 /* Pods-SmartUnify.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C5F9B6CF30AFFEE23BC3D6D34B91AD88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42695473C18359B661AA1AD399E090CE /* Pods-SmartUnifyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E65447B7C95D83F58BE2F05294A4F9D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A6684E827FCE3DEBA39F0E927F22C29 /* Pods-SmartUnify-SmartUnifyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F987FED63BC6AD94EAD7F78A2698F2B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 310B048624FEF4C6C3527CC07C3628E0 /* Pods-SmartUnifyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		914C694DE6B0C391EE5331F303A9BE53 /* Build configuration list for PBXNativeTarget "Pods-SmartUnifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F9B6CF30AFFEE23BC3D6D34B91AD88 /* Debug */,
+				F987FED63BC6AD94EAD7F78A2698F2B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B964E512D4CDD501FD023E6CF1C53FC1 /* Build configuration list for PBXNativeTarget "Pods-SmartUnify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0D71B311E4833FF676CC267CD52CE4 /* Debug */,
+				8A2F1AEEC1916D5F7D2046FE08C4CF4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C76693FF6FFB97C0CFFA7F0159460E10 /* Build configuration list for PBXAggregateTarget "LDVLib01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B68F5D2EFAA2647E49EABB7D7465FDB /* Debug */,
+				765ED6B8E58B582932AB002C711C04D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5088D71ABAD40EFAC22688A2B592F70 /* Build configuration list for PBXNativeTarget "Pods-SmartUnify-SmartUnifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EF01087DF64E77F28C9C702EABBDEB /* Debug */,
+				E65447B7C95D83F58BE2F05294A4F9D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
